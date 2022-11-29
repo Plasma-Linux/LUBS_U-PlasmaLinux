@@ -1,13 +1,12 @@
-PRETTY_NAME="KDE neon 5.26"
-NAME="KDE neon"
+PRETTY_NAME="PlasmaLinux 1.1 Capital"
+NAME="PlasmaLinux"
 VERSION_ID="22.04"
-VERSION="5.26"
-VERSION_CODENAME=jammy
-ID=neon
-ID_LIKE="ubuntu debian"
-HOME_URL="https://neon.kde.org/"
-SUPPORT_URL="https://neon.kde.org/"
-BUG_REPORT_URL="https://bugs.kde.org/"
-PRIVACY_POLICY_URL="https://kde.org/privacypolicy/"
+VERSION="1.1"
+VERSION_CODENAME=Capital
+ID=plasma
+ID_LIKE="ubuntu"
+HOME_URL="https://sites.google.com/view/plasmalinuxwebsite/%E3%83%9B%E3%83%BC%E3%83%A0"
+SUPPORT_URL="https://sites.google.com/view/plasmalinuxwebsite/%E3%83%9B%E3%83%BC%E3%83%A0"
+BUG_REPORT_URL="https://github.com/PlasmaLinux/"
+PRIVACY_POLICY_URL="https://github.com/PlasmaLinux/"
 UBUNTU_CODENAME=jammy
-
