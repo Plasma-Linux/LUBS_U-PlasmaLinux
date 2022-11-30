@@ -20,16 +20,13 @@ set -e
 export LANG=C
 
 script_path=$(readlink -f "${0%/*}")
-
 cache_dir="${script_path}/cache"
 channels_dir="${script_path}/channels"
 nfb_dir="${script_path}/nfb"
-
 codename="focal"
 mirror="http://linux.yz.yamagata-u.ac.jp/ubuntu/"
 os_name="Ubuntu"
 iso_name="ubuntu"
-
 arch=amd64
 work_dir="${script_path}/work"
 out_dir="${script_path}/out"
@@ -37,16 +34,11 @@ iso_label="${os_name}_${codename}_${arch}"
 iso_publisher='Fascode Network <https://fascode.net>'
 iso_application="${os_name} Live/Rescue CD"
 iso_version="${codename}-$(date +%Y.%m.%d)"
-
 channel_name="serene"
-
 username="liveuser"
 usershell="/bin/bash"
-
 debug=false
 cache_only=false
-
-
 start_time="$(date +%s)"
 
 _msg_common() {
