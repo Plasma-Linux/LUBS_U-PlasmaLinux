@@ -22,3 +22,6 @@ while getopts 'u:' arg; do
         u) username="${OPTARG}" ;;
     esac
 done
+
+# Lightdmで自動ログインがされるように設定
+sed -i "s/%USERNAME%/${username}" "/etc/lightdm.conf"
