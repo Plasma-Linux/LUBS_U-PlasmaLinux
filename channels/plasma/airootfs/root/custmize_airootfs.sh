@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 #
-# Yamada Hayao
-# Twitter: @Hayao0819
-# Email  : hayao@fascode.net
+# Jotch-96
+# Twitter: @PlasmaLinux
+# Email  : plasmalinuxjapan@gmail.com
 #
-# (c) 2019-2020 Fascode Network.
+# (c) 2022 PlasmaLinuxJapan.
 #
 
 set -e -u
